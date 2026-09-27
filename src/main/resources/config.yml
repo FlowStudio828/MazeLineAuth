@@ -1,0 +1,16 @@
+api-url: "https://mazeline.top/mc/api.php"
+version-check-url: "https://mazeline.top/mc/AuthV.txt"
+download-url: "https://mazeline.top/mc/AuthDownload.html"
+register-url: "https://mazeline.top/login.php"
+
+session-file: "sessions.json"
+session-expire-hours: 168
+
+messages:
+  not-logged-in: "&c请先登录"
+  login-success: "&a登录成功，欢迎回来！"
+  login-fail: "&c登录失败：%s"
+  bind-sent: "&a验证邮件已发送，请到邮箱点击链接完成绑定"
+  bind-fail: "&c绑定失败：%s"
+  unbind-success: "&a已解绑"
+  unbind-fail: "&c解绑失败：%s"

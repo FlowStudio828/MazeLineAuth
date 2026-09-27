@@ -1,0 +1,18 @@
+name: MazeLineAuth
+version: 1.5.0
+main: top.mazeline.auth.MazeLineAuth
+api-version: "1.21"
+author: cloverglow
+description: MazeLine 账号绑定与登录
+softdepend: [floodgate]
+
+commands:
+  login:
+    description: 登录
+    usage: /login <密码>
+  bind:
+    description: 绑定网站账号
+    usage: /bind <邮箱> <密码> [验证码]
+  unbind:
+    description: 解绑
+    usage: /unbind <邮箱> <密码>
